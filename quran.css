@@ -1,0 +1,77 @@
+li{
+    list-style: none;
+}
+.fo {
+  font-family: "Cascadia Code", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.img{
+    height:200px;
+    width:200px;
+    background-image: url('https://png.pngtree.com/png-vector/20260122/ourmid/pngtree-ornate-wooden-quran-stand-with-open-book-png-image_18593561.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.alex {
+  font-family: "Alexandria", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.fixed{
+    height:50px;
+    
+}
+.card-img-top{
+    height:100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: none;
+}
+header{
+    position:sticky;
+    left:0;
+    top:0;
+    background-color: white;
+    z-index:100;
+}
+a{
+    text-decoration: none;
+}
+body,header{
+    transition:all 1s ease-in;
+}
+.card:hover{
+    animation:scaleup 1s infinite alternate ;
+}
+.black{
+    color:black;
+}
+
+@keyframes scaleup{
+0%{
+    transform: scale(1);
+}
+50%{
+    transform: scale(1.1);
+}
+100%{
+    transform: scale(1.2);
+}
+}
+.qur{
+    font-size: xx-large;
+}
+@media(max-width:440px){
+    .qur{
+        font-size: large;
+        margin-top: 50px;
+        margin-bottom:40px;
+    }
+}
